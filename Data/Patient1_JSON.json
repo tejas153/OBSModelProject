@@ -1,0 +1,22 @@
+{"1":
+    {
+    "ptype_name":"rand_labor",
+    "probability": 0.7,
+    "sequence":[ "OBS", "LDR", "PP", "EXIT" ],
+    "los":[ 3, 12, 48]
+    },
+ "2":
+    {
+    "ptype_name":"rand_labor_c",
+    "probability": 0.2,
+    "sequence":[ "OBS", "LDR", "CSECT", "PP", "EXIT" ],
+    "los":[ 4, 12, 10, 49]
+    },
+"3":
+    {
+    "ptype_name":"rand_labor_c",
+    "probability": 0.1,
+    "sequence":[ "OBS", "LDR", "CSECT", "EXIT" ],
+    "los":[ 3, 12, 11]
+    }
+}
